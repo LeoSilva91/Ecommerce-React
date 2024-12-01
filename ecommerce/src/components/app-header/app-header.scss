@@ -1,0 +1,9 @@
+.border-color {
+    & input:hover {
+        border-style: none;
+    }
+}
+
+.navlink {
+    border-bottom: solid 3px #C92071;
+}
