@@ -1,0 +1,26 @@
+.card {
+    width: 405px;
+    height: 251px;
+    border-radius: 10px;
+    position: relative;
+    & .info {
+        position: absolute;
+        z-index: 2;
+    }
+    & .image {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 70%; 
+        height: 100%;
+        & img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: auto;
+            height: auto;
+        }
+    }
+}
+
